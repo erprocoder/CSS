@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Background Color of a Page</title>
+
+	<style type="text/css">
+	/* Here we define the bg color, we can use #color code as well */
+	body
+	{
+		background-color: orange;
+	}
+	</style>
+
+</head>
+<body>
+
+	<h1>My CSS web page! YAY!</h1>
+	<p>Hello World! I Love Programming Hub!</p>
+
+</body>
+</html>

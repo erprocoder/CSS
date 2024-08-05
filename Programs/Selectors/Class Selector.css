@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Class Selector</title>
+
+	<style type="text/css">
+		/* Here we have defined style by assiging it to a class */
+		.center
+		{
+			text-align: center;
+			color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1 class="center">Red and center-aligned Heading.</h1>
+	<p class="center">Red and center-aligned Paragraph.</p>
+	
+</body>
+</html>

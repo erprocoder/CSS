@@ -1,0 +1,40 @@
+<!-- List Style Position
+	* The list-style-postion property indicates wheather the marker should appear inside or outside of the box containing the bullet points.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>List Style Position</title>
+
+	<style type="text/css">
+		.main
+		{
+			list-style-type: circle;
+			list-style-position: outside;
+		}
+		.sub
+		{
+			list-style-type: square;
+			list-style-position: inside;
+		}
+	</style>
+
+</head>
+<body>
+
+	<ul class="main">
+		<li>Maths:</li>
+	</ul>
+	<ul class="sub">
+		<li>Trigonometry</li>
+		<li>Algebra</li>
+		<li>Arithmetic</li>
+	</ul>
+
+</body>
+</html>

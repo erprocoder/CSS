@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Specify the Space Between Characters</title>
+
+	<style type="text/css">
+		h1
+		{
+			letter-spacing: 3px;
+		}
+		h2
+		{
+			letter-spacing: -3px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1>This is Heading 1</h1>
+	<h2>This is Heading 2</h2>
+
+</body>
+</html>

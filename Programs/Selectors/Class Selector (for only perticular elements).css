@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Class Selector (for only perticular elements)</title>
+
+	<style type="text/css">
+		/* Here we have defined which element can use the style class */
+		p.center
+		{
+			text-align: center;
+			color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1 class="center">This Heading will not be affected.</h1>
+	<p class="center">This Paragraph will be red and center-aligned.</p>
+	<p class="center">See? I am a paragraph, so the above style works on me!</p>
+	
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>ID Selector</title>
+
+	<style type="text/css">
+		/* When you specify the ID of the tag, the style is applied only on that perticular tag */
+		#para1
+		{
+			text-align: center;
+			color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<p id="para1">Hello World!</p>
+	<p>This paragraph is not affected by the style.</p>
+	<p>Neither am I affected! See? I told you</p>
+	
+</body>
+</html>

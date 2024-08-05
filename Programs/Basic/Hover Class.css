@@ -1,0 +1,26 @@
+<!-- Hover Class -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Hover Class</title>
+
+	<style type="text/css">
+		/* Use this class to add special style to an element when you move mouse over it. */
+		a:hover
+		{
+			color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<a href="#">Programmig Hub Blog</a>
+
+</body>
+</html>

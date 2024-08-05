@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Vertical Alignment of an Image Inside Text</title>
+
+	<style type="text/css">
+		img.top
+		{
+			vertical-align: text-top;
+		}
+		img.bottom
+		{
+			vertical-align: text-bottom;
+		}
+	</style>
+
+</head>
+<body>
+
+	<p>An <img src="https://apk-dl.com/detail/image/com/.freeit.java-w250.png" alt="W3Schools" width="150" height="100">Image with a default alignment.</p>
+	<p>An <img src="https://apk-dl.com/detail/image/com/.freeit.java-w250.png" alt="W3Schools" width="150" height="100" class="top">Image with a text-top alignment.</p>
+	<p>An <img src="https://apk-dl.com/detail/image/com/.freeit.java-w250.png" alt="W3Schools" width="150" height="100" class="bottom">Image with a default alignment.</p>
+	
+</body>
+</html>

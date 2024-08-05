@@ -1,0 +1,28 @@
+<!-- Float Property
+	* The float property causes an element to be moved to one side of the parent elemet's content area, which allows other content to flow around is.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Float</title>
+
+	<style type="text/css">
+		h1
+		{
+			float: left;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1>CSS Float Example</h1>
+	<p>This text will be flowing around the heading.</p>
+	
+</body>
+</html>

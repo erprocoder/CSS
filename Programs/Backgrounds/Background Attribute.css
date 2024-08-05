@@ -1,0 +1,28 @@
+<!-- Background attachment
+	* Background attachment determines wheather a background image is fixed for scrolls with the rest of the page.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Background Attribute</title>
+
+	<style type="text/css">
+		body
+		{
+			background-image: url("https://static.wixstatic.com/media/a167e9_471bd76dbfa6999375aecb9a834ac45f.png");
+			background-attachment: scroll;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h2>Hello World! I Have a background image!</h2>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Speciy the Space Between Lines</title>
+
+	<style type="text/css">
+		p.small
+		{
+			line-height: 70%;
+		}
+		p.big
+		{
+			line-height: 200%;
+		}
+	</style>
+
+</head>
+<body>
+
+	<p>This is paragraph with a standard line-height.<br> The default line height in most browsers is about 110% to 120%.<br></p>
+	<p class="small">This is paragraph with a smaller line-height.<br> This is paragraph with a smaller line-height.<br></p>
+	<p class="big">This is paragraph with a bigger line-height.<br> This is paragraph with a bigger line-height.<br></p>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!-- Universal * Selector
+	* Star selector will target every single element on the page.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Universal Selector</title>
+
+	<!-- css code is written in style tag. -->
+	<style type="text/css">
+		*
+		{
+			font-size: 50px;
+			color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<p>This is a first paragraph</p>
+	<p>This is a second paragraph</p>
+	<p>This is a third paragraph</p>
+	<p>This is a fourth paragraph</p>
+
+</body>
+</html>

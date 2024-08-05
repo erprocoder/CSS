@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Element Selector</title>
+
+	<style type="text/css">
+		/* All the CSS properties are declared in the style tag in HTML */
+		p
+		{
+			text-align: center;
+			color: red;
+			font-weight: bold;
+		}
+	</style>
+
+</head>
+<body>
+
+	<p>All the Paragraphs will be affected by the style.</p>
+	<p id="para1">Yup, you are right!</p>
+	<p>See? I am always right!</p>
+	
+</body>
+</html>

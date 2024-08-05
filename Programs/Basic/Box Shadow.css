@@ -1,0 +1,31 @@
+<!-- Box-Shadow Property
+	* CSS3 supported to add shadow to box
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Box Shadow</title>
+
+	<style type="text/css">
+		div
+		{
+			width: 300px;
+			height: 50px;
+			padding: 15px;
+			background-color: red;
+			box-shadow: 10px 10px #0000FF;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div>This is a div element with a box-shadow</div>
+	
+</body>
+</html>

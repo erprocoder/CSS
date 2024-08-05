@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Group Selector</title>
+
+	<style type="text/css">
+		/* Here we are grouping together elements that require CSS style */
+		h1, h2, p
+		{
+			text-align: center;
+			color: red;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1>Hello World!</h1>
+	<h2>Smaller Heading!</h2>
+	<p>This is a Paragraph.</p>
+	<p>Yes I am a paragraph too, But I am cool!</p>
+	
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Background Color of Different Elements</title>
+
+	<style type="text/css">
+	/* Define different bg colors for each element */
+	h1
+	{
+		background-color: red;
+	}
+	p
+	{
+		background-color: green;
+	}
+	div
+	{
+		background-color: yellow;
+	}
+	</style>
+
+</head>
+<body>
+
+	<h1>CSS Background-Color Example!</h1>
+	<div>
+		This is a text inside a div element.
+		<p>This paragraph has its own background color.</p>
+		We are still in the div element.
+	</div>
+
+</body>
+</html>

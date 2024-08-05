@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Background Image</title>
+
+	<style type="text/css">
+		body
+		{
+			background-image: url("https://static.wixstatic.com/media/a167e9_471bd76dbfa6999375aecb9a834ac45f.png");
+		}
+	</style>
+
+</head>
+<body>
+
+	<h1>Hello World! I Have a Background Image!</h1>
+
+</body>
+</html>

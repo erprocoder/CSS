@@ -1,0 +1,53 @@
+<!-- margin
+	* The margin property defines the space around an HTML element.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Margin</title>
+
+	<style type="text/css">
+		/* The margin-bottom specifies the bottom margin of an element. */
+		h6
+		{
+			margin-bottom: 10px;
+			border: 1px solid black;
+		}
+
+		/* The margin-top specifies the top margin of an element. */
+		h5
+		{
+			margin-top: 10%;
+			border: 1px solid black;
+		}
+
+		/* The margin-left specifies the left margin of an element. */
+		h4
+		{
+			margin-left: 50px;
+			border: 1px solid black;
+		}
+
+		/* The margin-right specifies the right margin of an element. */
+		h3
+		{
+			margin-right: 10%;
+			border: 1px solid black;
+		}
+	</style>
+
+</head>
+<body>
+
+	<h6>This is a paragraph with a specified bottom margin.</h6>
+	<h5>This is a paragraph with a specified top margin in percent.</h5>
+	<h4>This is a paragraph with a specified left margin.</h6>
+	<h3>This is paragraph with a specified right margin in percent.</h5>
+
+</body>
+</html>

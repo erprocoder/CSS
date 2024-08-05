@@ -1,0 +1,35 @@
+<!-- Font Weight -->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Font Weight</title>
+
+	<style type="text/css">
+		.bold
+		{
+			font-weight: bold;
+		}
+		.bolder
+		{
+			font-weight: bolder;
+		}
+		.weight
+		{
+			font-weight: 900;
+		}
+	</style>
+
+</head>
+<body>
+
+	<p class="bold">This font is Bold.</p>
+	<p class="bolder">This font is Bolder.</p>
+	<p class="weight">This font is of 900 Weight.</p>
+	
+</body>
+</html>

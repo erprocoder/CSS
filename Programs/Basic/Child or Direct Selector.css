@@ -1,0 +1,35 @@
+<!-- Child or Direct Selector
+	* Child Selector is very similar to descedants but have different functionality.
+	* This rule will render all the paragraphs in red and size will be 20px if they are direct child of <body> element.
+	* Other paragraphs put inside other elements like <div> would not have any effect of this rule.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Child or Direct Selector</title>
+
+	<!-- css code is written in style tag. -->
+	<style type="text/css">
+		div > p
+		{
+			font-size: 50px;
+			color: green;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div>
+		<p>Hi
+			<h3>Its Me</h3>
+		</p>
+	</div>
+	
+</body>
+</html>
